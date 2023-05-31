@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+  min-height: 100vh;
+  background: #2C2B3D;
+}
+
+.content {
+  padding: 71px 67px 23px 131px;
+}
+
+
+header {
+  margin: 0px 0px 101px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 14px;
+  gap: 64px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 77px;
+  padding-bottom: 157px;
+}
+
+main img {
+  width: 401px;
+  height: 283px;
+}
+
+
+main h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 65px;
+}
+
+main h1 span .text {
+  color: #00BFA6;
+}
+
+.text div p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #C2C2C2;
+  text-align: center;
+}
+
+.text div p+p {
+  margin-top: 35px;
+}
+
+.text div p>strong {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.text div p>span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #00BFA6;
+}
+
+.padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 51px;
+}
+
+.line {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #00BFA6;
+
+}
+
+footer {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
